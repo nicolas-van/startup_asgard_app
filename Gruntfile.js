@@ -54,7 +54,7 @@ module.exports = function(grunt) {
         },
         watch: {
             less: {
-                files: "static/css/**.less",
+                files: "src/css/**.less",
                 tasks: ['less']
             },
             jiko: {
